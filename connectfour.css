@@ -4,25 +4,26 @@
     flex-wrap:wrap; 
     height:276px; 
     width:330px; 
-    background:blue 
-    } 
-    .board div { 
+    background:blue;
+    margin: auto; 
+} 
+.board div { 
     height:40px; 
     width:40px; 
     margin:3px;
     border-radius:20px 
-    }
-    .square{ 
+}
+.square{ 
     background:white; 
-    } 
-    
-    .player-one { 
+} 
+
+.player-one { 
     background:red;
-    }
-    .player-two { 
+}
+.player-two { 
     background:yellow; 
-    }
-    .restart{ 
+}
+.restart{ 
     background: red; 
     width: 200px; 
     height: 200px; 
@@ -33,4 +34,10 @@
     justify-content: center; 
     align-items: center; 
     flex-direction: column; 
-    }
+}
+
+.currentPlayer{
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1em blue;
+}
